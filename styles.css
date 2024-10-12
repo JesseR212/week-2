@@ -1,0 +1,114 @@
+body {
+   background-color: #eeeeee;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+/* --- ELEMENTS --- */
+
+h1 {
+    text-decoration: underline;
+}
+
+h3 {
+  font-style: italic;
+  background-color: #3c7390;
+  width: max-content;
+  padding 5px;
+}
+
+/* ---NAV--- */
+
+.navbar {
+    background-color: rgb(39, 39, 111);
+    padding: 0.25em;
+}
+
+.navbar ol {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    list-style-type: none;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin-right: 1em;
+    font-size: 24px;
+    box-shadow: 2px 1px rgb(197, 189, 189);
+}
+
+.navbar a:hover {
+        background-color: aqua;
+}
+
+.navbar a:active {
+    background-color: green;
+    border-radius: 50%;
+}
+
+/* ---IMAGE LIST INDEX --- */
+
+#favoritethings {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#favoritethings li {
+    text-align: center;
+    list-style-type: none;
+}
+
+/* --- TABLE --- */
+
+table {
+    background-color: #3c7390;
+    border: 3px dotted black;
+    }
+
+    table caption {
+    font-size: 30px;
+    font-weight: 600;
+    border: 3px solid #3c7390;
+    background-color: rgb(120, 120, 233);
+    }
+
+    thead {
+        background-color: rgba(12, 237, l237, 0.316);
+        color: black;
+        font-size: 24px;
+    }
+
+    th,
+    tr {
+        text-indent: 20px;
+    }
+
+    /* --- FORM PAGE ---*/
+
+    form {
+        display: flex;  
+        flex-direction: column;
+        max-width: 250px;
+        background-color: rgb(164, 164, 196);
+        padding: 10px;
+    }
+
+    form label {
+        color: white;
+        font-weight: 600;
+        font-size: larger;
+        align-self: center;
+    }
+
+    form input {
+        margin-bottom: lem;
+    }
+
+    form button {
+        padding: 5px;
+        letter-spacing: 3px;
+        font-size: 20px;
+        font-weight: 600;
+    }
